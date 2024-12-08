@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my tirp bus </title>
+    <link="https://www.flaticon.com/free-icons/bus-stop" title="bus stop icons">
+    <link rel="stylesheet" href="styl.css">
+    <script src='bus-stop.png"'></script>
+    <script src="script.js" defer></script>
+    <style>
+        #map {
+            background-size: cover;
+            background-color: rgb(182, 250, 250);
+             position: absolute;
+             top: 50%;
+             left: 77%;
+              transform: translate(-50%,-50%);
+              width: 378px;
+              height: 420px;
+              padding: 80px 50px;
+              box-sizing: border-box;
+              background: rgba(240, 233, 233, 0.5);
+              box-shadow: 1px 1px 12px rgb(19, 134, 130);
+     
+        }
+        html, body {
+          height: 100%;
+          margin: 0 ;
+          padding: 0;
+        }
+      </style>
+</head>
+<body>
+    
+  <header>
+    <div><img src="bus-stop.png" alt="logo"> 
+   <h1>my trip bus </h1>
+  </div>
+ </div>
+        <center>
+            <div>
+                <button onclick="location.href='bus.html';">exit </button>
+                <button onclick="location.href='dir2.html'">home</button>
+                <button onclick="location='aboutasd.html';"> about us</button>
+            </div>
+        </center>
+    </header>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 28.3835, lng: 36.5662},
+          zoom: 8
+        });
+      }
+    </script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwXBCIKpwntgoK-6y5Pmk1ErcbsajUOeU&callback=initMap"async defer>
+   </script>
+    <div id="d4">
+    <div>
+     <button onclick="location='mapp.html';">+Add destination</button>
+    </div> 
+   </div>
+    <div id="d1">
+      <div>
+            <h3> direvr</h3>
+            <img src="WhatsApp Image 1445-08-24 at 00.36.46 (2).jpeg" width="270"  height="370"  alt="">
+            <p></p>
+      </div>
+    </div>
+  
+    <button class="chatbot-toggler">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>Chatbot</h2>
+        <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>Hi there 👋<br>How can I help you today?</p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+    </div>
+
+    <div id="o98">
+      <div>
+      <center>
+        <iframe src="https://api.wo-cloud.com/content/widget/?geoObjectKey=10851139&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit" name="CW2" width="290" height="318" fstyle="border: 1px solid #276884;border-radius: 8px"></iframe>
+        </center>
+      </div>
+    </div>
+
+   
+  </body>
+</html>

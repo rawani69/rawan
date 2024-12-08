@@ -1,0 +1,559 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(47, 153, 153);
+    box-shadow: 0px 0px 12px rgb(42, 165, 147) ;
+
+}
+#d12 div{
+    width: 100%;
+    height: 70px;
+    font-size: 9px;
+    font: weight 12px;;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f5f0f0;
+    
+     
+
+}
+header button{
+    width: 140px;
+    padding:10px;
+    margin-top:-18px;
+    border:none;
+    background:none;
+    outline:none;
+    font-size: 18px;
+    box-shadow: 0px 0px 8px rgb(45, 204, 210);
+    font: weight 12px;;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition:1s ;
+
+}
+header button:hover{
+   color: rgb(179, 250, 248);
+   box-shadow: 0px 0px 15pc rgb(27, 95, 80);
+   
+   
+}
+header img{
+width:110px;
+float: left;
+
+}
+
+#d13 div{
+    width: 274px;
+    height: 420px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 29px;
+    font-weight:bold ;
+    box-shadow: 1px 1px 12px rgb(19, 134, 130);
+    float: left; 
+    margin-left: 130px;
+    margin-top: 60px;
+    border-radius: 12px;
+    transition: 1s;
+    
+
+}
+#d13 div:hover{ 
+    color: rgb(39, 67, 67);
+    background-color:rgb(142, 224, 207) ;
+   transition: 1s;
+    float: left;
+    color: rgb(179, 250, 248);
+    box-shadow: 0px 0px 15pc rgb(27, 95, 80);
+  
+}
+
+
+
+#d17 div
+{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+    background-color:rgb(69, 161, 161)
+    }
+    .loginbox
+    {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height: 459px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(215, 213, 213, 0.5);
+    box-shadow: 1px 1px 12px rgb(19, 134, 130);
+    
+    }
+    .login
+    {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+    
+    }
+    h2
+    {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #32af90;
+    text-align: center;
+    }
+    .loginbox p
+    {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+    }
+    .loginbox input
+    {
+    width: 100%;
+    margin-bottom: 20px;
+    
+    }
+    .loginbox input[type="text"],
+    .loginbox input[type="password"]
+    {
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    }
+    ::placeholder
+    {
+    color: rgba(255,255,255,.5);
+    }.loginbox input[type="submit"]
+    {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: green;
+    cursor: pointer;
+    border-radius: 20px;
+    }
+    .loginbox input[type="submit"]:hover
+    {
+    background: #2fa680;
+    color: #262626;
+    }
+    .loginbox a
+    {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    }
+     #d3 center {
+        width: 274px;
+            height: 420px;
+            border: 1px solid rgb(255, 255, 255);
+            font-size: 29px;
+            font-weight:bold ;
+            box-shadow: 1px 1px 12px rgb(19, 134, 130);
+            float: left; 
+            margin-left: 130px;
+            margin-top: 60px;
+            border-radius: 12px;
+            transition: 1s;
+            
+        
+        }
+ #d3 center  { 
+ color: rgb(46, 94, 94);
+  background-color:rgb(142, 224, 207) ;
+ transition: 1s;
+float: left;
+}
+ #d7 div h4{
+    width: 70px;
+   height: 50px;
+    color: #e8f1ef;
+    text-align: right;
+    float: right;
+ }
+ #d13 div button{
+   width: 70px;
+   height: 50px;
+   border: 1px solid (255, 255, 255);
+   box-shadow: 1px 1px 12px rgb(19, 134, 130);
+   transition: 1s;
+   box-shadow: 0px 0px 15pc rgb(27, 95, 80);
+   border-radius: 12px;
+   box-shadow: 1px 1px 12px rgb(19, 134, 130);
+
+
+
+}
+select{
+
+    width: 80px;
+    height: 40px;
+    border: 1px solid (255, 255, 255);
+    box-shadow: 1px 1px 1px rgb(19, 134, 130);
+    transition: 1s;
+    box-shadow: 0px 0px 15pc rgb(27, 95, 80);
+    border-radius: 12px;
+    box-shadow: 1px 1px 12px rgb(19, 134, 130);
+    float: right;
+
+
+}
+#d88{
+    width: 200px;
+    height: 3px;
+    margin: 0;
+    padding: 0 0 20px;
+    border: 1px solid (255, 255, 255);
+    color: #f0f9f7;
+    text-align: right;
+    font-size: 7px;
+    float: right;
+    transition: 1s;
+    box-shadow: 1px 1px 12px rgb(90, 178, 178);
+    box-shadow: 0px 0px 15pc rgb(27, 95, 80);
+
+}   
+#d88 div:hover{ 
+    font-size: 22px;
+    margin: left 2px; 
+    border: 1px solid (255, 255, 255);
+    color: rgb(39, 67, 67);
+    background-color:rgb(142, 224, 207) ;
+    transition: 1s;
+    float: right;
+    color: rgb(179, 250, 248);
+    box-shadow: 1px 1px 12px rgb(90, 178, 178);
+    box-shadow: 0px 0px 15pc rgb(27, 95, 80);
+  
+}
+#d8 div{
+font-size: 1px;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+    background-color:rgb(69, 161, 161)
+
+
+    
+}
+#d1 div{
+  width: 278px;
+  height: 420px;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 29px;
+  font-weight:bold ;
+  box-shadow: 1px 1px 12px rgb(79, 174, 179);
+  margin-left: 130px;
+  margin-top: 60px;
+  border-radius: 12px;
+  transition: 1s;
+  left: 77%;
+    
+ 
+}
+#d677 div{
+
+  width: 278px;
+  height: 420px;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 29px;
+  font-weight:bold ;
+  box-shadow: 1px 1px 12px rgb(79, 174, 179);
+  margin-left: 35%;
+  margin-top: -30%;
+  border-radius: 12px;
+  transition: 1s;
+  left: 88%;
+
+
+
+}
+#d66 div{
+  width: 278px;
+  height: 420px;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 29px;
+  font-weight:bold ;
+  box-shadow: 1px 1px 12px rgb(79, 174, 179);
+  margin-left: 35%;
+  margin-top: -30%;
+  border-radius: 12px;
+  transition: 1s;
+  left: 88%;
+    
+}
+
+
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #fafcfd;
+}
+.chatbot-toggler {
+  position: fixed;
+  bottom: 30px;
+  right: 35px;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #724ae8;
+  transition: all 0.2s ease;
+}
+body.show-chatbot .chatbot-toggler {
+  transform: rotate(90deg);
+}
+.chatbot-toggler span {
+  color: #fff;
+  position: absolute;
+}
+.chatbot-toggler span:last-child,
+body.show-chatbot .chatbot-toggler span:first-child  {
+  opacity: 0;
+}
+body.show-chatbot .chatbot-toggler span:last-child {
+  opacity: 1;
+}
+.chatbot {
+  position: fixed;
+  right: 35px;
+  bottom: 90px;
+  width: 420px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.5);
+  transform-origin: bottom right;
+  box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+              0 32px 64px -48px rgba(0,0,0,0.5);
+  transition: all 0.1s ease;
+}
+body.show-chatbot .chatbot {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+}
+.chatbot header {
+  padding: 16px 0;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: #724ae8;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.chatbot header span {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  display: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+header h2 {
+  font-size: 1.4rem;
+}
+.chatbot .chatbox {
+  overflow-y: auto;
+  height: 510px;
+  padding: 30px 20px 100px;
+}
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar {
+  width: 6px;
+}
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 25px;
+}
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 25px;
+}
+.chatbox .chat {
+  display: flex;
+  list-style: none;
+}
+.chatbox .outgoing {
+  margin: 20px 0;
+  justify-content: flex-end;
+}
+.chatbox .incoming span {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  cursor: default;
+  text-align: center;
+  line-height: 32px;
+  align-self: flex-end;
+  background: #724ae8;
+  border-radius: 4px;
+  margin: 0 10px 7px 0;
+}
+.chatbox .chat p {
+  white-space: pre-wrap;
+  padding: 12px 16px;
+  border-radius: 10px 10px 0 10px;
+  max-width: 75%;
+  color: #fff;
+  font-size: 0.95rem;
+  background: #724ae8;
+}
+.chatbox .incoming p {
+  border-radius: 10px 10px 10px 0;
+}
+.chatbox .chat p.error {
+  color: #721c24;
+  background: #f8d7da;
+}
+.chatbox .incoming p {
+  color: #000;
+  background: #f2f2f2;
+}
+.chatbot .chat-input {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 3px 20px;
+  border-top: 1px solid #ddd;
+}
+.chat-input textarea {
+  height: 55px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  max-height: 180px;
+  padding: 15px 15px 15px 0;
+  font-size: 0.95rem;
+}
+.chat-input span {
+  align-self: flex-end;
+  color: #724ae8;
+  cursor: pointer;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+  font-size: 1.35rem;
+}
+.chat-input textarea:valid ~ span {
+  visibility: visible;
+}
+
+@media (max-width: 490px) {
+  .chatbot-toggler {
+    right: 20px;
+    bottom: 20px;
+  }
+  .chatbot {
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    border-radius: 0;
+    width: 100%;
+  }
+  .chatbot .chatbox {
+    height: 90%;
+    padding: 25px 15px 100px;
+  }
+  .chatbot .chat-input {
+    padding: 5px 15px;
+  }
+  .chatbot header span {
+    display: block;
+  }
+}     
+
+
+
+
+
+#d4 div{
+  width: 50%;
+  height: 70px;
+  font-size: 9px;
+  font: weight 12px;;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #1c5a6b;
+  float:right;
+  top: 50%;
+  left:99%;
+
+   width: 378px;
+   height: 420px;
+ 
+
+  
+   
+
+}
+#d4 button{
+  width: 200px;
+  padding:10px;
+  margin-top:469px;
+  border:none;
+  background:none;
+  outline:none;
+  font-size: 18px;
+  box-shadow: 0px 0px 8px rgb(64, 124, 126);
+  font: weight 12px;;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition:1s;
+  width:110px;
+  
+  
+
+ 
+
+
+}
+#d4 button:hover{
+ color: rgb(21, 55, 53);
+ box-shadow: 0px 0px 15pc rgb(27, 95, 80);
+ 
+ 
+}
+#o98 div{
+  top:700%;
+  margin-top:-333px;
+}
+ 
